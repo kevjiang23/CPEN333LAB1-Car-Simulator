@@ -19,7 +19,7 @@ namespace CarSimulator
             var myCars = new List<Car>();
             for (int i = 0; i < fleetNumberPerType; i++)
             {
-                myCars.Add(new CarSimulator.Car.Tesla("Tesla", 1500, 1000, 0.51));
+                myCars.Add(new CarSimulator.Car.Tesla("Tesla", 1500, 1000, 0.51)); //Add Car objects to list with parameters
                 myCars.Add(new CarSimulator.Car.Prius("Prius", 1000, 750, 0.43));
                 myCars.Add(new CarSimulator.Car.Mazda("Mazda", 1250, 1300, 0.46));
                 myCars.Add(new CarSimulator.Car.Herbie("Herbie", 800, 900, 0.35));
