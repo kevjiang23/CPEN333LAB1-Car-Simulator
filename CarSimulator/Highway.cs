@@ -1,4 +1,4 @@
-﻿using System.Linq;
+using System.Linq;
 using System.Collections.Generic;
 using System;
 namespace CarSimulator
@@ -55,12 +55,10 @@ namespace CarSimulator
                 {
                     // Drive cars at each index through nested for-loop
                     myCars[i].drive(dt);
-
+                
                     // Display the cars states acceleration, speed, position at each time step
-                    Console.WriteLine("t:{0}, Tesla: x:{1}, v:{2}, a:{3}, Prius = x:{4}, v:{5}, a:{6}," +
-                    ", Mazda = x:{4}, v:{5}, a:{6}, Herbie = x:{4}, v:{5}, a:{6}", myCars[i].myCarState.time, myCars[i].myCarState.position,
-                    myCars[i].myCarState.velocity, myCars[dt].myCarState.acceleration, myCars[i].myCarState.position, myCars[i].myCarState.velocity,
-                    myCars[i].myCarState.acceleration, myCars[i].myCarState.position, myCars[i].myCarState.velocity, myCars[i].myCarState.acceleration);
+                    Console.WriteLine("Model:{0} t:{1}, x:{2}, v:{3}, a:{4}", myCars[i].getModel() ,myCars[i].myCarState.time, myCars[i].myCarState.position,
+                    myCars[i].myCarState.velocity, myCars[i].myCarState.acceleration); //Use of Car.cs getModel() function to return the model string from each list entry
                 }
             }
         }
