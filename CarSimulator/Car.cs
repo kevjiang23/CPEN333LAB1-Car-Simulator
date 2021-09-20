@@ -18,7 +18,7 @@ namespace CarSimulator
             this.engineForce = engineForce;
             this.dragArea = dragArea;
 
-            //Create an instance of State for myCarState; values are initialized to 0 given the default constructor from State.cs
+            //Create an instance of State for myCarState
             this.myCarState = new State();
         }
 
