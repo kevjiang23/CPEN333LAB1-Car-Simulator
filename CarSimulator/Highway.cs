@@ -65,3 +65,6 @@ namespace CarSimulator
 
     }
 }
+
+/* Currently have step 2 (single list) prepared to run. To run step 1 (arrays), comment out the step 2 content and uncomment it for step 1.
+Both steps run very well, especially step 2 due to the getModel() function coming in handy*/
