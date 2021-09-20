@@ -45,4 +45,4 @@ namespace CarSimulator
             }
         }
     }
-}
+} /* The Prius has been shown to be a consistent winner, likely due to its lower mass and drag */
