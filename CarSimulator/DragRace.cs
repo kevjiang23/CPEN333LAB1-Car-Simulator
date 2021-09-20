@@ -1,4 +1,4 @@
-﻿/*using System;
+using System;
 namespace CarSimulator
 {
     public class DragRace
@@ -45,4 +45,4 @@ namespace CarSimulator
             }
         }
     }
-}*/
+}
